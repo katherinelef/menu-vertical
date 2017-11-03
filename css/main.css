@@ -2,6 +2,11 @@ body {
   font-family: sans-serif;
 }
 
+#title {
+  text-decoration: underline;
+  text-align: center;
+}
+
 nav{
   /*outline: 1px solid red;*/
   width: 200px;
@@ -13,6 +18,10 @@ ul {
   margin: 0px;
   padding: 0px;
   line-height: 30px;
+}
+
+.item {
+  border: 1px dotted #999;
 }
 
 li {
